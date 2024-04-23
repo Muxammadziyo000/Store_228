@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.work{
+  width: 1400px;
+  margin: 0 auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .cart{
+    margin: 20px;
+    padding: 10px;
+    background-image: url(https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=);
+      font-family: "Honk", system-ui;
+        text-align: center;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+          "MORF" 15,
+          "SHLN" 50;
+      h4{
+        font-size: 20px;
+      }
+    img{
+      width: 400px;
+      height: 300px;
+    }
+    width: 400px;
+    height: 500px;
   }
 }
